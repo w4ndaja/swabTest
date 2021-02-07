@@ -104,11 +104,11 @@ class PatientController extends Controller
     {
         $request->validate([
             'result'=>'required|string',
-            'interpretation'=>'required|string',
+            // 'interpretation'=>'required|string',
         ]);
         $patient->update([
             'result' => $request->result,
-            'interpretation' => $request->interpretation,
+            // 'interpretation' => $request->interpretation,
             'received' => $request->received,
         ]);
         return back()->with('success', 'Pasien Berhasil diperbaharui');

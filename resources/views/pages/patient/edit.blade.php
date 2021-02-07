@@ -56,13 +56,13 @@
                                         @error('result') <span class="text-danger">{{$message}}</span> @enderror
                                     </div>
                                 </div>
-                                <div class="row form-group">
+                                {{-- <div class="row form-group">
                                     <label for="inputResult" class="col-form-label col-lg-4">Interpretasi dan saran</label>
                                     <div class="col-lg-8">
                                         <textarea name="interpretation" id="inputInterpretation" cols="30" rows="10" class="form-control">{{$patient->interpretation}}</textarea>
                                         @error('result') <span class="text-danger">{{$message}}</span> @enderror
                                     </div>
-                                </div>
+                                </div> --}}
                                 <div class="row form-group">
                                     <label for="inputReceived" class="col-form-label col-lg-4">Telah diterima</label>
                                     <div class="col-lg-8">

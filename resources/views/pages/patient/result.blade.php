@@ -1021,12 +1021,24 @@ normal'>{{\Str::ucfirst($patient->result)}}</b></span><b style='mso-bidi-font-we
 font-family:"Times New Roman",serif'> &amp; <span class=GramE>Saran :</span>
                     <o:p></o:p>
                 </span></i></p>
+                <p class=MsoNoSpacing style='margin-left:36.0pt;text-indent:-18.0pt;mso-list:
+l0 level1 lfo1'>
+        <![if !supportLists]><span lang=EN-US style='font-size:12.0pt;
+font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'><span style='mso-list:Ignore'>-<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </span></span></span>
+        <![endif]><span class=SpellE><i style='mso-bidi-font-style:
+normal'><span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'>Korelasi</span></i></span><i style='mso-bidi-font-style:normal'><span lang=EN-US style='font-size:12.0pt;
+font-family:"Times New Roman",serif'> <span class=SpellE>dengan</span> <span class=SpellE>klinis</span> dan <span class=SpellE>hasil</span> <span class=SpellE>pemeriksaan</span> <span class=SpellE>penunjang</span> <span class=SpellE>relevan</span> lain.<o:p></o:p></span></i>
+        </p>
 
-        <ul>
-            @foreach($interpretations as $interpretation)
-            <li>{{$interpretation}}</li>
-            @endforeach
-        </ul>
+        <p class=MsoNoSpacing style='margin-left:36.0pt;text-indent:-18.0pt;mso-list:
+l0 level1 lfo1'>
+            <![if !supportLists]><span lang=EN-US style='font-size:12.0pt;
+font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'><span style='mso-list:Ignore'>-<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </span></span></span>
+            <![endif]><i style='mso-bidi-font-style:normal'><span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'>Hasil <span class=SpellE>ini</span> <span class=SpellE>hanya</span> <span class=SpellE>berlaku</span>
+                    pada <span class=SpellE>hari</span> <span class=SpellE>saat</span> <span class=SpellE>pengambilan</span> <span class=SpellE>spesimen</span>.<o:p></o:p></span></i>
+        </p>
 
         <p class=MsoNoSpacing style='margin-left:36.0pt'><i style='mso-bidi-font-style:
 normal'><span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'>
@@ -1056,35 +1068,35 @@ normal'><span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",s
 
         <div style='text-align:right'>
             <p class=MsoNoSpacing><span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'><span style='mso-spacerun:yes'>    </span><span style='mso-spacerun:yes'>     </span>Medan, {{now()->format('d')}} <span class=SpellE>{{now()->format('F')}}</span>
-                {{now()->format('Y')}}<o:p></o:p></span></p>
+                    {{now()->format('Y')}}<o:p></o:p></span></p>
 
-        <p class=MsoNoSpacing><span lang=EN-US style='font-size:12.0pt;font-family:
+            <p class=MsoNoSpacing><span lang=EN-US style='font-size:12.0pt;font-family:
 "Times New Roman",serif'>
-                <o:p>&nbsp;</o:p>
-            </span></p>
+                    <o:p>&nbsp;</o:p>
+                </span></p>
 
-        <p class=MsoNoSpacing><span lang=EN-US style='font-size:12.0pt;font-family:
+            <p class=MsoNoSpacing><span lang=EN-US style='font-size:12.0pt;font-family:
 "Times New Roman",serif'>
-                <o:p>&nbsp;</o:p>
-            </span></p>
+                    <o:p>&nbsp;</o:p>
+                </span></p>
 
-        <p class=MsoNoSpacing><span lang=EN-US style='font-size:12.0pt;font-family:
+            <p class=MsoNoSpacing><span lang=EN-US style='font-size:12.0pt;font-family:
 "Times New Roman",serif'>
-                <o:p>&nbsp;</o:p>
-            </span></p>
+                    <o:p>&nbsp;</o:p>
+                </span></p>
 
-        <p class=MsoNoSpacing><span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'>
-                <o:p>&nbsp;</o:p>
-            </span></p>
+            <p class=MsoNoSpacing><span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'>
+                    <o:p>&nbsp;</o:p>
+                </span></p>
 
-        <p class=MsoNoSpacing><span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'><span style='mso-spacerun:yes'>       </span><u>{{$patient->doctor->name}}
+            <p class=MsoNoSpacing><span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'><span style='mso-spacerun:yes'>       </span><u>{{$patient->doctor->name}}
+                        <o:p></o:p>
+                    </u></span></p>
+
+            <p class=MsoNormal><span lang=EN-US><span style='mso-tab-count:8'>                                                                                                </span><span style='mso-spacerun:yes'>      </span></span><span class=SpellE><span lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>Dokter</span></span><span lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>
+                    <span class=SpellE>Pemeriksa</span>
                     <o:p></o:p>
-                </u></span></p>
-
-        <p class=MsoNormal><span lang=EN-US><span style='mso-tab-count:8'>                                                                                                </span><span style='mso-spacerun:yes'>      </span></span><span class=SpellE><span lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>Dokter</span></span><span lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>
-                <span class=SpellE>Pemeriksa</span>
-                <o:p></o:p>
-            </span></p>
+                </span></p>
         </div>
 
         <p class=MsoNormal><span lang=EN-US>
