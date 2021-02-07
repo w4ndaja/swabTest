@@ -1054,7 +1054,8 @@ normal'><span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",s
                 <o:p>&nbsp;</o:p>
             </span></p>
 
-        <p class=MsoNoSpacing style='margin-left:252.0pt'><span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'><span style='mso-spacerun:yes'>    </span><span style='mso-spacerun:yes'>     </span>Medan, {{now()->format('d')}} <span class=SpellE>{{now()->format('F')}}</span>
+        <div style='text-align:right'>
+            <p class=MsoNoSpacing><span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'><span style='mso-spacerun:yes'>    </span><span style='mso-spacerun:yes'>     </span>Medan, {{now()->format('d')}} <span class=SpellE>{{now()->format('F')}}</span>
                 {{now()->format('Y')}}<o:p></o:p></span></p>
 
         <p class=MsoNoSpacing><span lang=EN-US style='font-size:12.0pt;font-family:
@@ -1072,12 +1073,11 @@ normal'><span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",s
                 <o:p>&nbsp;</o:p>
             </span></p>
 
-        <p class=MsoNoSpacing style='margin-left:252.0pt'><span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'>
+        <p class=MsoNoSpacing><span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'>
                 <o:p>&nbsp;</o:p>
             </span></p>
 
-        <p class=MsoNoSpacing style='margin-left:252.0pt'><span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'><span style='mso-spacerun:yes'>       </span><u>{{$patient->doctor->name}}
-                    <span class=SpellE>Wannur</span> <span class=SpellE>Azah</span>
+        <p class=MsoNoSpacing><span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'><span style='mso-spacerun:yes'>       </span><u>{{$patient->doctor->name}}
                     <o:p></o:p>
                 </u></span></p>
 
@@ -1085,6 +1085,7 @@ normal'><span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",s
                 <span class=SpellE>Pemeriksa</span>
                 <o:p></o:p>
             </span></p>
+        </div>
 
         <p class=MsoNormal><span lang=EN-US>
                 <o:p>&nbsp;</o:p>
