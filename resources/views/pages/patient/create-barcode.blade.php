@@ -16,7 +16,7 @@
     <!-- Content Row -->
 
     <div class="row justify-content-center pb-5">
-        <div class="border bg-white p-3" style="width : 58mm">
+        <div class="border bg-white p-3" style="width : 100%">
             <h5 class="text-center">Swab Antigen Test</h5>
             <div class="text-center">{!! \QR::size(120)->generate(url('patient/'.$patient->id)); !!}</div>
             <div class="h5 text-center pt-3">Antrean No. {{str_pad($patient->queue_no, 5, '0', STR_PAD_LEFT)}}</div>
