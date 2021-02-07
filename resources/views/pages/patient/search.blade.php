@@ -30,6 +30,7 @@
                                <tr>
                                 <th>Nomor Antrian</th>
                                 <th>Nama</th>
+                                <th>HP</th>
                                 <th>ID</th>
                                 <th>Tempat Lahir</th>
                                 <th>Tanggal Lahir</th>
@@ -46,6 +47,7 @@
                                     <tr>
                                         <td class="text-nowrap">{{str_pad($patient->queue_no, 5, '0', STR_PAD_LEFT)}}</td>
                                         <td class="text-nowrap">{{$patient->name}}</td>
+                                        <td class="text-nowrap">{{$patient->phone}}</td>
                                         <td class="text-nowrap">{{$patient->identity}}</td>
                                         <td class="text-nowrap">{{$patient->birth_place}}</td>
                                         <td class="text-nowrap">{{$patient->birth_date}}</td>
