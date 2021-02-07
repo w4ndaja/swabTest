@@ -13,7 +13,7 @@
     <div class="row">
         <div class="col-12">
             <div class="card">
-                <div class="card-header d-flex" style="gap:10px">
+                <div class="card-header d-flex justify-content-between" style="gap:10px">
                     <form action="{{route('patient.search')}}">
                         <div class="form-group d-flex" style="gap:10px">
                             <span class="text-info my-auto text-nowrap">Cari NIK</span>

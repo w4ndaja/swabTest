@@ -154,4 +154,10 @@ class PatientController extends Controller
         $patients = Patient::whereIdentity(request('identity'))->paginate(10);
         return view('pages.patient.search', compact('patients'));
     }
+
+    public function todayReport()
+    {
+        $patients = Patient::whereDate('created_at', now()->format('Y-m-d'))->get();
+        return view('pages.patient.daily-report', compact('patients'));
+    }
 }
