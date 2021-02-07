@@ -17,10 +17,10 @@
 
     <div class="row justify-content-center pb-5">
         <div class="border bg-white p-3" style="width : 100%;">
-            <h1 class="text-center" style="font-size:64px">Swab Antigen Test</h1>
+            <h1 class="text-center" style="font-size:84px">Swab Antigen Test</h1>
             <div class="text-center">{!! \QR::size(520)->generate(url('patient/'.$patient->id)); !!}</div>
-            <div class="h1 text-center pt-3"  style="font-size:64px">Antrean No. {{str_pad($patient->queue_no, 5, '0', STR_PAD_LEFT)}}</div>
-            <div class="h1 text-center pt-3"  style="font-size:64px">{{now()->format('d F Y h:i')}}</div>
+            <div class="h1 text-center pt-3"  style="font-size:132px">Antrean No. {{str_pad($patient->queue_no, 5, '0', STR_PAD_LEFT)}}</div>
+            <div class="h1 text-center pt-3"  style="font-size:84px">{{now()->format('d F Y h:i')}}</div>
         </div>
     </div>
 
