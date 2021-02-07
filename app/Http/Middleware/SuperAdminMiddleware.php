@@ -16,7 +16,7 @@ class SuperAdminMiddleware
      */
     public function handle(Request $request, Closure $next)
     {
-        if($request->user()->role != 'superadmin'){
+        if($request->user()->role != 'SA'){
             return redirect('dashboard');
         }
         return $next($request);
