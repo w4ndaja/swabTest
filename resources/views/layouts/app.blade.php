@@ -67,7 +67,7 @@
           <span>Daftar Antrian</span></a>
       </li>
 
-      @if(Auth::user()->role === 'superadmin')
+      @if(Auth::user()->role === 'SA')
       <div class="sidebar-heading">
         Dokter
       </div>
