@@ -117,7 +117,6 @@ class PatientController extends Controller
     public function printResult(Patient $patient)
     {
         $interpretations = \Str::of($patient->interpretation)->split('/[\n\r]+/');
-        
         $romanceMonth = $this->numberToRomanRepresentation(now()->format('n'));
         return view('pages.patient.result', compact('patient', 'interpretations', 'romanceMonth'));
     }

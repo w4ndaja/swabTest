@@ -48,7 +48,7 @@
                                 <div class="row form-group">
                                     <label for="inputBirthDate" class="col-form-label col-lg-4">Tanggal Lahir</label>
                                     <div class="col-lg-8">
-                                        <input type="text" class="form-control @error('birth_date') border-danger @enderror" name="birth_date" value="{{old('birth_date')}}" id="inputBirthDate">
+                                        <input type="date" class="form-control @error('birth_date') border-danger @enderror" name="birth_date" value="{{old('birth_date')}}" id="inputBirthDate">
                                         @error('birth_date') <span class="text-danger">{{$message}}</span> @enderror
                                     </div>
                                 </div>
@@ -75,13 +75,6 @@
                                     <div class="col-lg-8">
                                         <input type="text" class="form-control @error('address') border-danger @enderror" name="address" value="{{old('address')}}" id="inputAddress">
                                         @error('address') <span class="text-danger">{{$message}}</span> @enderror
-                                    </div>
-                                </div>
-                                <div class="row form-group">
-                                    <label for="inputBirthPlace" class="col-form-label col-lg-4">Tempat Lahir</label>
-                                    <div class="col-lg-8">
-                                        <input type="text" class="form-control @error('birth_place') border-danger @enderror" name="birth_place" value="{{old('birth_place')}}" id="inputBirthPlace">
-                                        @error('birth_place') <span class="text-danger">{{$message}}</span> @enderror
                                     </div>
                                 </div>
     

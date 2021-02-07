@@ -1,11 +1,12 @@
 <html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+
 <head>
-  <meta http-equiv=Content-Type content="text/html; charset=utf-8">
-  <meta name=ProgId content=Word.Document>
-  <meta name=Generator content="Microsoft Word 15">
-  <meta name=Originator content="Microsoft Word 15">
-  <link rel=File-List href="SURAT%20KETERANGAN%20ANTIGEN.fld/filelist.xml">
-  <!--[if gte mso 9]><xml>
+    <meta http-equiv=Content-Type content="text/html; charset=utf-8">
+    <meta name=ProgId content=Word.Document>
+    <meta name=Generator content="Microsoft Word 15">
+    <meta name=Originator content="Microsoft Word 15">
+    <link rel=File-List href="SURAT%20KETERANGAN%20ANTIGEN.fld/filelist.xml">
+    <!--[if gte mso 9]><xml>
  <o:DocumentProperties>
   <o:Author>Windows User</o:Author>
   <o:LastAuthor>Kamilah Sari Fauziyah</o:LastAuthor>
@@ -25,9 +26,9 @@
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
 </xml><![endif]-->
-  <link rel=themeData href="SURAT%20KETERANGAN%20ANTIGEN.fld/themedata.thmx">
-  <link rel=colorSchemeMapping href="SURAT%20KETERANGAN%20ANTIGEN.fld/colorschememapping.xml">
-  <!--[if gte mso 9]><xml>
+    <link rel=themeData href="SURAT%20KETERANGAN%20ANTIGEN.fld/themedata.thmx">
+    <link rel=colorSchemeMapping href="SURAT%20KETERANGAN%20ANTIGEN.fld/colorschememapping.xml">
+    <!--[if gte mso 9]><xml>
  <w:WordDocument>
   <w:SpellingState>Clean</w:SpellingState>
   <w:GrammarState>Clean</w:GrammarState>
@@ -68,7 +69,7 @@
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
 </xml><![endif]-->
-  <!--[if gte mso 9]><xml>
+    <!--[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -649,231 +650,231 @@
    Name="Smart Link"/>
  </w:LatentStyles>
 </xml><![endif]-->
-  <style>
-    <!--
-    /* Font Definitions */
-    @font-face {
-      font-family: Wingdings;
-      panose-1: 5 0 0 0 0 0 0 0 0 0;
-      mso-font-charset: 2;
-      mso-generic-font-family: auto;
-      mso-font-pitch: variable;
-      mso-font-signature: 0 268435456 0 0 -2147483648 0;
-    }
+    <style>
+        <!--
+        /* Font Definitions */
+        @font-face {
+            font-family: Wingdings;
+            panose-1: 5 0 0 0 0 0 0 0 0 0;
+            mso-font-charset: 2;
+            mso-generic-font-family: auto;
+            mso-font-pitch: variable;
+            mso-font-signature: 0 268435456 0 0 -2147483648 0;
+        }
 
-    @font-face {
-      font-family: "Cambria Math";
-      panose-1: 2 4 5 3 5 4 6 3 2 4;
-      mso-font-charset: 0;
-      mso-generic-font-family: roman;
-      mso-font-pitch: variable;
-      mso-font-signature: 3 0 0 0 1 0;
-    }
+        @font-face {
+            font-family: "Cambria Math";
+            panose-1: 2 4 5 3 5 4 6 3 2 4;
+            mso-font-charset: 0;
+            mso-generic-font-family: roman;
+            mso-font-pitch: variable;
+            mso-font-signature: 3 0 0 0 1 0;
+        }
 
-    @font-face {
-      font-family: Calibri;
-      panose-1: 2 15 5 2 2 2 4 3 2 4;
-      mso-font-charset: 0;
-      mso-generic-font-family: swiss;
-      mso-font-pitch: variable;
-      mso-font-signature: -536859905 -1073732485 9 0 511 0;
-    }
+        @font-face {
+            font-family: Calibri;
+            panose-1: 2 15 5 2 2 2 4 3 2 4;
+            mso-font-charset: 0;
+            mso-generic-font-family: swiss;
+            mso-font-pitch: variable;
+            mso-font-signature: -536859905 -1073732485 9 0 511 0;
+        }
 
-    /* Style Definitions */
-    p.MsoNormal,
-    li.MsoNormal,
-    div.MsoNormal {
-      mso-style-unhide: no;
-      mso-style-qformat: yes;
-      mso-style-parent: "";
-      margin-top: 0cm;
-      margin-right: 0cm;
-      margin-bottom: 10.0pt;
-      margin-left: 0cm;
-      line-height: 115%;
-      mso-pagination: widow-orphan;
-      font-size: 11.0pt;
-      font-family: "Calibri", sans-serif;
-      mso-ascii-font-family: Calibri;
-      mso-ascii-theme-font: minor-latin;
-      mso-fareast-font-family: Calibri;
-      mso-fareast-theme-font: minor-latin;
-      mso-hansi-font-family: Calibri;
-      mso-hansi-theme-font: minor-latin;
-      mso-bidi-font-family: "Times New Roman";
-      mso-bidi-theme-font: minor-bidi;
-      mso-ansi-language: EN-US;
-    }
+        /* Style Definitions */
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            mso-style-unhide: no;
+            mso-style-qformat: yes;
+            mso-style-parent: "";
+            margin-top: 0cm;
+            margin-right: 0cm;
+            margin-bottom: 10.0pt;
+            margin-left: 0cm;
+            line-height: 115%;
+            mso-pagination: widow-orphan;
+            font-size: 11.0pt;
+            font-family: "Calibri", sans-serif;
+            mso-ascii-font-family: Calibri;
+            mso-ascii-theme-font: minor-latin;
+            mso-fareast-font-family: Calibri;
+            mso-fareast-theme-font: minor-latin;
+            mso-hansi-font-family: Calibri;
+            mso-hansi-theme-font: minor-latin;
+            mso-bidi-font-family: "Times New Roman";
+            mso-bidi-theme-font: minor-bidi;
+            mso-ansi-language: EN-US;
+        }
 
-    p.MsoNoSpacing,
-    li.MsoNoSpacing,
-    div.MsoNoSpacing {
-      mso-style-priority: 1;
-      mso-style-unhide: no;
-      mso-style-qformat: yes;
-      mso-style-parent: "";
-      margin: 0cm;
-      mso-pagination: widow-orphan;
-      font-size: 11.0pt;
-      font-family: "Calibri", sans-serif;
-      mso-ascii-font-family: Calibri;
-      mso-ascii-theme-font: minor-latin;
-      mso-fareast-font-family: "Times New Roman";
-      mso-fareast-theme-font: minor-fareast;
-      mso-hansi-font-family: Calibri;
-      mso-hansi-theme-font: minor-latin;
-      mso-bidi-font-family: "Times New Roman";
-      mso-bidi-theme-font: minor-bidi;
-      mso-ansi-language: EN-US;
-    }
+        p.MsoNoSpacing,
+        li.MsoNoSpacing,
+        div.MsoNoSpacing {
+            mso-style-priority: 1;
+            mso-style-unhide: no;
+            mso-style-qformat: yes;
+            mso-style-parent: "";
+            margin: 0cm;
+            mso-pagination: widow-orphan;
+            font-size: 11.0pt;
+            font-family: "Calibri", sans-serif;
+            mso-ascii-font-family: Calibri;
+            mso-ascii-theme-font: minor-latin;
+            mso-fareast-font-family: "Times New Roman";
+            mso-fareast-theme-font: minor-fareast;
+            mso-hansi-font-family: Calibri;
+            mso-hansi-theme-font: minor-latin;
+            mso-bidi-font-family: "Times New Roman";
+            mso-bidi-theme-font: minor-bidi;
+            mso-ansi-language: EN-US;
+        }
 
-    span.SpellE {
-      mso-style-name: "";
-      mso-spl-e: yes;
-    }
+        span.SpellE {
+            mso-style-name: "";
+            mso-spl-e: yes;
+        }
 
-    span.GramE {
-      mso-style-name: "";
-      mso-gram-e: yes;
-    }
+        span.GramE {
+            mso-style-name: "";
+            mso-gram-e: yes;
+        }
 
-    .MsoChpDefault {
-      mso-style-type: export-only;
-      mso-default-props: yes;
-      font-size: 11.0pt;
-      mso-ansi-font-size: 11.0pt;
-      mso-bidi-font-size: 11.0pt;
-      font-family: "Calibri", sans-serif;
-      mso-ascii-font-family: Calibri;
-      mso-ascii-theme-font: minor-latin;
-      mso-fareast-font-family: Calibri;
-      mso-fareast-theme-font: minor-latin;
-      mso-hansi-font-family: Calibri;
-      mso-hansi-theme-font: minor-latin;
-      mso-bidi-font-family: "Times New Roman";
-      mso-bidi-theme-font: minor-bidi;
-      mso-ansi-language: EN-US;
-    }
+        .MsoChpDefault {
+            mso-style-type: export-only;
+            mso-default-props: yes;
+            font-size: 11.0pt;
+            mso-ansi-font-size: 11.0pt;
+            mso-bidi-font-size: 11.0pt;
+            font-family: "Calibri", sans-serif;
+            mso-ascii-font-family: Calibri;
+            mso-ascii-theme-font: minor-latin;
+            mso-fareast-font-family: Calibri;
+            mso-fareast-theme-font: minor-latin;
+            mso-hansi-font-family: Calibri;
+            mso-hansi-theme-font: minor-latin;
+            mso-bidi-font-family: "Times New Roman";
+            mso-bidi-theme-font: minor-bidi;
+            mso-ansi-language: EN-US;
+        }
 
-    .MsoPapDefault {
-      mso-style-type: export-only;
-      margin-bottom: 10.0pt;
-      line-height: 115%;
-    }
+        .MsoPapDefault {
+            mso-style-type: export-only;
+            margin-bottom: 10.0pt;
+            line-height: 115%;
+        }
 
-    @page WordSection1 {
-      size: 612.0pt 792.0pt;
-      margin: 72.0pt 72.0pt 72.0pt 72.0pt;
-      mso-header-margin: 36.0pt;
-      mso-footer-margin: 36.0pt;
-      mso-paper-source: 0;
-    }
+        @page WordSection1 {
+            size: 612.0pt 792.0pt;
+            margin: 72.0pt 72.0pt 72.0pt 72.0pt;
+            mso-header-margin: 36.0pt;
+            mso-footer-margin: 36.0pt;
+            mso-paper-source: 0;
+        }
 
-    div.WordSection1 {
-      page: WordSection1;
-    }
+        div.WordSection1 {
+            page: WordSection1;
+        }
 
-    /* List Definitions */
-    @list l0 {
-      mso-list-id: 1148940917;
-      mso-list-type: hybrid;
-      mso-list-template-ids: 1967712858 -180194038 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;
-    }
+        /* List Definitions */
+        @list l0 {
+            mso-list-id: 1148940917;
+            mso-list-type: hybrid;
+            mso-list-template-ids: 1967712858 -180194038 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;
+        }
 
-    @list l0:level1 {
-      mso-level-start-at: 0;
-      mso-level-number-format: bullet;
-      mso-level-text: -;
-      mso-level-tab-stop: none;
-      mso-level-number-position: left;
-      text-indent: -18.0pt;
-      font-family: "Times New Roman", serif;
-      mso-fareast-font-family: Calibri;
-      mso-fareast-theme-font: minor-latin;
-    }
+        @list l0:level1 {
+            mso-level-start-at: 0;
+            mso-level-number-format: bullet;
+            mso-level-text: -;
+            mso-level-tab-stop: none;
+            mso-level-number-position: left;
+            text-indent: -18.0pt;
+            font-family: "Times New Roman", serif;
+            mso-fareast-font-family: Calibri;
+            mso-fareast-theme-font: minor-latin;
+        }
 
-    @list l0:level2 {
-      mso-level-number-format: bullet;
-      mso-level-text: o;
-      mso-level-tab-stop: none;
-      mso-level-number-position: left;
-      text-indent: -18.0pt;
-      font-family: "Courier New";
-    }
+        @list l0:level2 {
+            mso-level-number-format: bullet;
+            mso-level-text: o;
+            mso-level-tab-stop: none;
+            mso-level-number-position: left;
+            text-indent: -18.0pt;
+            font-family: "Courier New";
+        }
 
-    @list l0:level3 {
-      mso-level-number-format: bullet;
-      mso-level-text: ;
-      mso-level-tab-stop: none;
-      mso-level-number-position: left;
-      text-indent: -18.0pt;
-      font-family: Wingdings;
-    }
+        @list l0:level3 {
+            mso-level-number-format: bullet;
+            mso-level-text: ;
+            mso-level-tab-stop: none;
+            mso-level-number-position: left;
+            text-indent: -18.0pt;
+            font-family: Wingdings;
+        }
 
-    @list l0:level4 {
-      mso-level-number-format: bullet;
-      mso-level-text: ;
-      mso-level-tab-stop: none;
-      mso-level-number-position: left;
-      text-indent: -18.0pt;
-      font-family: Symbol;
-    }
+        @list l0:level4 {
+            mso-level-number-format: bullet;
+            mso-level-text: ;
+            mso-level-tab-stop: none;
+            mso-level-number-position: left;
+            text-indent: -18.0pt;
+            font-family: Symbol;
+        }
 
-    @list l0:level5 {
-      mso-level-number-format: bullet;
-      mso-level-text: o;
-      mso-level-tab-stop: none;
-      mso-level-number-position: left;
-      text-indent: -18.0pt;
-      font-family: "Courier New";
-    }
+        @list l0:level5 {
+            mso-level-number-format: bullet;
+            mso-level-text: o;
+            mso-level-tab-stop: none;
+            mso-level-number-position: left;
+            text-indent: -18.0pt;
+            font-family: "Courier New";
+        }
 
-    @list l0:level6 {
-      mso-level-number-format: bullet;
-      mso-level-text: ;
-      mso-level-tab-stop: none;
-      mso-level-number-position: left;
-      text-indent: -18.0pt;
-      font-family: Wingdings;
-    }
+        @list l0:level6 {
+            mso-level-number-format: bullet;
+            mso-level-text: ;
+            mso-level-tab-stop: none;
+            mso-level-number-position: left;
+            text-indent: -18.0pt;
+            font-family: Wingdings;
+        }
 
-    @list l0:level7 {
-      mso-level-number-format: bullet;
-      mso-level-text: ;
-      mso-level-tab-stop: none;
-      mso-level-number-position: left;
-      text-indent: -18.0pt;
-      font-family: Symbol;
-    }
+        @list l0:level7 {
+            mso-level-number-format: bullet;
+            mso-level-text: ;
+            mso-level-tab-stop: none;
+            mso-level-number-position: left;
+            text-indent: -18.0pt;
+            font-family: Symbol;
+        }
 
-    @list l0:level8 {
-      mso-level-number-format: bullet;
-      mso-level-text: o;
-      mso-level-tab-stop: none;
-      mso-level-number-position: left;
-      text-indent: -18.0pt;
-      font-family: "Courier New";
-    }
+        @list l0:level8 {
+            mso-level-number-format: bullet;
+            mso-level-text: o;
+            mso-level-tab-stop: none;
+            mso-level-number-position: left;
+            text-indent: -18.0pt;
+            font-family: "Courier New";
+        }
 
-    @list l0:level9 {
-      mso-level-number-format: bullet;
-      mso-level-text: ;
-      mso-level-tab-stop: none;
-      mso-level-number-position: left;
-      text-indent: -18.0pt;
-      font-family: Wingdings;
-    }
+        @list l0:level9 {
+            mso-level-number-format: bullet;
+            mso-level-text: ;
+            mso-level-tab-stop: none;
+            mso-level-number-position: left;
+            text-indent: -18.0pt;
+            font-family: Wingdings;
+        }
 
-    ol {
-      margin-bottom: 0cm;
-    }
+        ol {
+            margin-bottom: 0cm;
+        }
 
-    ul {
-      margin-bottom: 0cm;
-    }
-    -->
-  </style>
-  <!--[if gte mso 10]>
+        ul {
+            margin-bottom: 0cm;
+        }
+        -->
+    </style>
+    <!--[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -901,10 +902,10 @@
 	mso-ansi-language:EN-US;}
 </style>
 <![endif]-->
-  <!--[if gte mso 9]><xml>
+    <!--[if gte mso 9]><xml>
  <o:shapedefaults v:ext="edit" spidmax="1026"/>
 </xml><![endif]-->
-  <!--[if gte mso 9]><xml>
+    <!--[if gte mso 9]><xml>
  <o:shapelayout v:ext="edit">
   <o:idmap v:ext="edit" data="1"/>
  </o:shapelayout></xml><![endif]-->
@@ -912,190 +913,190 @@
 
 <body lang=EN-ID style='tab-interval:36.0pt'>
 
-  <div class=WordSection1>
+    <div class=WordSection1>
 
-    <p class=MsoNoSpacing style='margin-left:108.0pt;text-indent:36.0pt'><b style='mso-bidi-font-weight:normal'><u><span lang=EN-US style='font-size:16.0pt;
+        <p class=MsoNoSpacing style='margin-left:108.0pt;text-indent:36.0pt'><b style='mso-bidi-font-weight:normal'><u><span lang=EN-US style='font-size:16.0pt;
 font-family:"Times New Roman",serif;text-transform:uppercase'>SURAT KETERANGAN<o:p></o:p></span></u></b></p>
 
-    <p class=MsoNoSpacing align=center style='text-align:center'><span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'>No.
-        {{str_pad($patient->id, 3, '0', STR_PAD_LEFT)}}/AZ-MA/SA/{{$romanceMonth}}/{{now()->format('Y')}}<o:p></o:p></span></p>
+        <p class=MsoNoSpacing align=center style='text-align:center'><span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'>No.
+                {{str_pad($patient->id, 3, '0', STR_PAD_LEFT)}}/AZ-MA/SA/{{$romanceMonth}}/{{now()->format('Y')}}<o:p></o:p></span></p>
 
-    <p class=MsoNoSpacing><span lang=EN-US style='font-size:12.0pt;font-family:
+        <p class=MsoNoSpacing><span lang=EN-US style='font-size:12.0pt;font-family:
 "Times New Roman",serif'>
-        <o:p>&nbsp;</o:p>
-      </span></p>
+                <o:p>&nbsp;</o:p>
+            </span></p>
 
-    <p class=MsoNoSpacing><span class=SpellE><span lang=EN-US style='font-size:
+        <p class=MsoNoSpacing><span class=SpellE><span lang=EN-US style='font-size:
 12.0pt;font-family:"Times New Roman",serif'>Laporan</span></span><span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'> <span class=SpellE>pemeriksaan</span> Covid-19 <span class=SpellE>dengan</span> <span class=SpellE>menggunakan</span> <span class=SpellE>metode</span> SWAB Antigen
-        Test, <span class=SpellE>sebagai</span> <span class=SpellE><span class=GramE>berikut</span></span><span class=GramE> :</span><i style='mso-bidi-font-style:normal'>
-          <o:p></o:p>
-        </i></span></p>
+                Test, <span class=SpellE>sebagai</span> <span class=SpellE><span class=GramE>berikut</span></span><span class=GramE> :</span><i style='mso-bidi-font-style:normal'>
+                    <o:p></o:p>
+                </i></span></p>
 
-    <p class=MsoNoSpacing><span lang=EN-US style='font-size:12.0pt;font-family:
+        <p class=MsoNoSpacing><span lang=EN-US style='font-size:12.0pt;font-family:
 "Times New Roman",serif'>
-        <o:p>&nbsp;</o:p>
-      </span></p>
+                <o:p>&nbsp;</o:p>
+            </span></p>
 
-    <p class=MsoNoSpacing><span lang=EN-US style='font-size:12.0pt;font-family:
+        <p class=MsoNoSpacing><span lang=EN-US style='font-size:12.0pt;font-family:
 "Times New Roman",serif'>Nama<span style='mso-tab-count:4'>                                      </span><span style='mso-tab-count:1'>            </span>: {{\Str::upper($patient->name)}}<i style='mso-bidi-font-style:normal'>
-          <o:p></o:p>
-        </i></span></p>
+                    <o:p></o:p>
+                </i></span></p>
 
-    <p class=MsoNoSpacing><span lang=EN-US style='font-size:12.0pt;font-family:
+        <p class=MsoNoSpacing><span lang=EN-US style='font-size:12.0pt;font-family:
 "Times New Roman",serif'>
-        <o:p>&nbsp;</o:p>
-      </span></p>
+                <o:p>&nbsp;</o:p>
+            </span></p>
 
-    <p class=MsoNoSpacing><span lang=EN-US style='font-size:12.0pt;font-family:
+        <p class=MsoNoSpacing><span lang=EN-US style='font-size:12.0pt;font-family:
 "Times New Roman",serif'>NIK/No. SIM<span style='mso-tab-count:1'>  </span><span style='mso-tab-count:3'>                                    </span>:
-        {{$patient->identity}}<o:p></o:p></span></p>
+                {{$patient->identity}}<o:p></o:p></span></p>
 
-    <p class=MsoNoSpacing><span lang=EN-US style='font-size:12.0pt;font-family:
+        <p class=MsoNoSpacing><span lang=EN-US style='font-size:12.0pt;font-family:
 "Times New Roman",serif'>
-        <o:p>&nbsp;</o:p>
-      </span></p>
+                <o:p>&nbsp;</o:p>
+            </span></p>
 
-    <p class=MsoNoSpacing><span class=SpellE><span lang=EN-US style='font-size:
+        <p class=MsoNoSpacing><span class=SpellE><span lang=EN-US style='font-size:
 12.0pt;font-family:"Times New Roman",serif'>Tempat</span></span><span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'>, <span class=SpellE>Tanggal</span> Lahir<span style='mso-tab-count:2'>                       </span>:
-        {{$patient->birth_place}}, {{$patient->birth_date->format('d F Y')}}<o:p></o:p></span></p>
+                {{\Str::upper($patient->birth_place)}}, {{$patient->birth_date->format('d F Y')}}<o:p></o:p></span></p>
 
-    <p class=MsoNoSpacing><span lang=EN-US style='font-size:12.0pt;font-family:
+        <p class=MsoNoSpacing><span lang=EN-US style='font-size:12.0pt;font-family:
 "Times New Roman",serif'>
-        <o:p>&nbsp;</o:p>
-      </span></p>
+                <o:p>&nbsp;</o:p>
+            </span></p>
 
-    <p class=MsoNoSpacing><span class=SpellE><span lang=EN-US style='font-size:
+        <p class=MsoNoSpacing><span class=SpellE><span lang=EN-US style='font-size:
 12.0pt;font-family:"Times New Roman",serif'>Jenis</span></span><span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'> <span class=SpellE>Kelamin</span><span style='mso-tab-count:3'>                         </span><span style='mso-tab-count:1'>            </span>: {{\Str::upper($patient->gender)}}<o:p></o:p></span></p>
 
-    <p class=MsoNoSpacing><span lang=EN-US style='font-size:12.0pt;font-family:
+        <p class=MsoNoSpacing><span lang=EN-US style='font-size:12.0pt;font-family:
 "Times New Roman",serif'>
-        <o:p>&nbsp;</o:p>
-      </span></p>
+                <o:p>&nbsp;</o:p>
+            </span></p>
 
-    <p class=MsoNoSpacing><span class=SpellE><span lang=EN-US style='font-size:
+        <p class=MsoNoSpacing><span class=SpellE><span lang=EN-US style='font-size:
 12.0pt;font-family:"Times New Roman",serif'>Pekerjaan</span></span><span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'><span style='mso-tab-count:3'>                                </span><span style='mso-tab-count:1'>            </span>: {{\Str::upper($patient->job)}}<o:p></o:p></span></p>
 
-    <p class=MsoNoSpacing><span lang=EN-US style='font-size:12.0pt;font-family:
+        <p class=MsoNoSpacing><span lang=EN-US style='font-size:12.0pt;font-family:
 "Times New Roman",serif'>
-        <o:p>&nbsp;</o:p>
-      </span></p>
+                <o:p>&nbsp;</o:p>
+            </span></p>
 
-    <p class=MsoNoSpacing style='margin-left:180.0pt;text-indent:-180.0pt'><span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'>Alamat <span class=SpellE>Lengkap</span> (<span class=SpellE>sesuai</span> KTP)<span style='mso-tab-count:1'>           </span>: {{\Str::upper($patient->address)}}<o:p></o:p></span></p>
+        <p class=MsoNoSpacing style='margin-left:180.0pt;text-indent:-180.0pt'><span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'>Alamat <span class=SpellE>Lengkap</span> (<span class=SpellE>sesuai</span> KTP)<span style='mso-tab-count:1'>           </span>: {{\Str::upper($patient->address)}}<o:p></o:p></span></p>
 
-    <p class=MsoNoSpacing style='margin-left:180.0pt;text-indent:-180.0pt'><span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'>
-        <o:p>&nbsp;</o:p>
-      </span></p>
+        <p class=MsoNoSpacing style='margin-left:180.0pt;text-indent:-180.0pt'><span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'>
+                <o:p>&nbsp;</o:p>
+            </span></p>
 
-    <p class=MsoNoSpacing style='margin-left:180.0pt;text-indent:-180.0pt'><span class=SpellE><span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'>Tanggal</span></span><span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'> <span class=SpellE>Pemeriksaan</span><span style='mso-tab-count:1'>                         </span>:
-        {{$patient->created_at->format('d F Y')}}<o:p></o:p></span></p>
+        <p class=MsoNoSpacing style='margin-left:180.0pt;text-indent:-180.0pt'><span class=SpellE><span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'>Tanggal</span></span><span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'> <span class=SpellE>Pemeriksaan</span><span style='mso-tab-count:1'>                         </span>:
+                {{$patient->created_at->format('d F Y')}}<o:p></o:p></span></p>
 
-    <p class=MsoNoSpacing style='margin-left:180.0pt;text-indent:-180.0pt'><span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'>
-        <o:p>&nbsp;</o:p>
-      </span></p>
+        <p class=MsoNoSpacing style='margin-left:180.0pt;text-indent:-180.0pt'><span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'>
+                <o:p>&nbsp;</o:p>
+            </span></p>
 
-    <p class=MsoNoSpacing><span lang=EN-US style='font-size:12.0pt;font-family:
+        <p class=MsoNoSpacing><span lang=EN-US style='font-size:12.0pt;font-family:
 "Times New Roman",serif'>
-        <o:p>&nbsp;</o:p>
-      </span></p>
+                <o:p>&nbsp;</o:p>
+            </span></p>
 
-    <p class=MsoNoSpacing><span lang=EN-US style='font-size:12.0pt;font-family:
+        <p class=MsoNoSpacing><span lang=EN-US style='font-size:12.0pt;font-family:
 "Times New Roman",serif'>Hasil <span class=SpellE><span class=GramE>Pemeriksaan</span></span><span class=GramE> :</span>
-        <o:p></o:p>
-      </span></p>
+                <o:p></o:p>
+            </span></p>
 
-    <p class=MsoNoSpacing><span lang=EN-US style='font-size:12.0pt;font-family:
+        <p class=MsoNoSpacing><span lang=EN-US style='font-size:12.0pt;font-family:
 "Times New Roman",serif'>Telah <span class=SpellE>dilakukan</span> SWAB Antigen
-        Test SARS CoV-2, <span class=SpellE>dengan</span> <span class=SpellE>hasil</span>
-        <span class=SpellE>pemeriksaan</span> <span class=SpellE><b style='mso-bidi-font-weight:
+                Test SARS CoV-2, <span class=SpellE>dengan</span> <span class=SpellE>hasil</span>
+                <span class=SpellE>pemeriksaan</span> <span class=SpellE><b style='mso-bidi-font-weight:
 normal'>{{\Str::ucfirst($patient->result)}}</b></span><b style='mso-bidi-font-weight:normal'>.</b>
-        <o:p></o:p>
-      </span></p>
+                <o:p></o:p>
+            </span></p>
 
-    <p class=MsoNoSpacing><span lang=EN-US style='font-size:12.0pt;font-family:
+        <p class=MsoNoSpacing><span lang=EN-US style='font-size:12.0pt;font-family:
 "Times New Roman",serif'>
-        <o:p>&nbsp;</o:p>
-      </span></p>
+                <o:p>&nbsp;</o:p>
+            </span></p>
 
-    <p class=MsoNoSpacing><span class=SpellE><i style='mso-bidi-font-style:normal'><span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'>Interpretasi</span></i></span><i style='mso-bidi-font-style:normal'><span lang=EN-US style='font-size:12.0pt;
+        <p class=MsoNoSpacing><span class=SpellE><i style='mso-bidi-font-style:normal'><span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'>Interpretasi</span></i></span><i style='mso-bidi-font-style:normal'><span lang=EN-US style='font-size:12.0pt;
 font-family:"Times New Roman",serif'> &amp; <span class=GramE>Saran :</span>
-          <o:p></o:p>
-        </span></i></p>
+                    <o:p></o:p>
+                </span></i></p>
 
         <ul>
-@foreach($interpretations as $interpretation)
-    <li>{{$interpretation}}</li>
-@endforeach
-            </ul>
+            @foreach($interpretations as $interpretation)
+            <li>{{$interpretation}}</li>
+            @endforeach
+        </ul>
 
-    <p class=MsoNoSpacing style='margin-left:36.0pt'><i style='mso-bidi-font-style:
+        <p class=MsoNoSpacing style='margin-left:36.0pt'><i style='mso-bidi-font-style:
 normal'><span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'>
-          <o:p>&nbsp;</o:p>
-        </span></i></p>
+                    <o:p>&nbsp;</o:p>
+                </span></i></p>
 
-    <p class=MsoNoSpacing><i style='mso-bidi-font-style:normal'><span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'>Hasil <span class=SpellE><b style='mso-bidi-font-weight:normal'>Positif</b></span> <span class=SpellE>tidak</span> <span class=SpellE>memastikan</span> <span class=SpellE>adanya</span> <span class=SpellE>infeksi</span> SARS Cov-2. <span class=SpellE>Tetap</span> <span class=SpellE>perlu</span> <span class=SpellE>dikonfirmasi</span>
-          <span class=SpellE>dengan</span> <span class=SpellE>pemeriksaan</span> RT PCR
-          SARS Cov-2.<o:p></o:p></span></i></p>
+        <p class=MsoNoSpacing><i style='mso-bidi-font-style:normal'><span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'>Hasil <span class=SpellE><b style='mso-bidi-font-weight:normal'>Positif</b></span> <span class=SpellE>tidak</span> <span class=SpellE>memastikan</span> <span class=SpellE>adanya</span> <span class=SpellE>infeksi</span> SARS Cov-2. <span class=SpellE>Tetap</span> <span class=SpellE>perlu</span> <span class=SpellE>dikonfirmasi</span>
+                    <span class=SpellE>dengan</span> <span class=SpellE>pemeriksaan</span> RT PCR
+                    SARS Cov-2.<o:p></o:p></span></i></p>
 
-    <p class=MsoNoSpacing><i style='mso-bidi-font-style:normal'><span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'>Hasil <span class=SpellE><b style='mso-bidi-font-weight:normal'>Negatif</b></span> <span class=SpellE>tidak</span> <span class=SpellE>menyingkirkan</span> <span class=SpellE>kemungkinan</span> <span class=SpellE>infeksi</span> oleh SARS
-          Cov-2, <span class=SpellE>terutama</span> <span class=SpellE>jika</span> <span class=SpellE>disertai</span> <span class=SpellE>dengan</span> <span class=SpellE>gejala</span> Covid-19.<o:p></o:p></span></i></p>
+        <p class=MsoNoSpacing><i style='mso-bidi-font-style:normal'><span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'>Hasil <span class=SpellE><b style='mso-bidi-font-weight:normal'>Negatif</b></span> <span class=SpellE>tidak</span> <span class=SpellE>menyingkirkan</span> <span class=SpellE>kemungkinan</span> <span class=SpellE>infeksi</span> oleh SARS
+                    Cov-2, <span class=SpellE>terutama</span> <span class=SpellE>jika</span> <span class=SpellE>disertai</span> <span class=SpellE>dengan</span> <span class=SpellE>gejala</span> Covid-19.<o:p></o:p></span></i></p>
 
-    <p class=MsoNoSpacing><span lang=EN-US style='font-size:12.0pt;font-family:
+        <p class=MsoNoSpacing><span lang=EN-US style='font-size:12.0pt;font-family:
 "Times New Roman",serif'>
-        <o:p>&nbsp;</o:p>
-      </span></p>
+                <o:p>&nbsp;</o:p>
+            </span></p>
 
-    <p class=MsoNoSpacing><span class=SpellE><span lang=EN-US style='font-size:
+        <p class=MsoNoSpacing><span class=SpellE><span lang=EN-US style='font-size:
 12.0pt;font-family:"Times New Roman",serif'>Demikian</span></span><span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'> <span class=SpellE>surat</span> <span class=SpellE>keterangan</span> <span class=SpellE>ini</span> <span class=SpellE>dibuat</span> <span class=SpellE>untuk</span>
-        <span class=SpellE>dapat</span> <span class=SpellE>digunakan</span> <span class=SpellE>sebagaimana</span> <span class=SpellE>mestinya</span>.<o:p></o:p></span></p>
+                <span class=SpellE>dapat</span> <span class=SpellE>digunakan</span> <span class=SpellE>sebagaimana</span> <span class=SpellE>mestinya</span>.<o:p></o:p></span></p>
 
-    <p class=MsoNoSpacing><span lang=EN-US style='font-size:12.0pt;font-family:
+        <p class=MsoNoSpacing><span lang=EN-US style='font-size:12.0pt;font-family:
 "Times New Roman",serif'>
-        <o:p>&nbsp;</o:p>
-      </span></p>
+                <o:p>&nbsp;</o:p>
+            </span></p>
 
-    <p class=MsoNoSpacing style='margin-left:252.0pt'><span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'><span style='mso-spacerun:yes'>    </span><span style='mso-spacerun:yes'>     </span>Medan, {{now()->format('d')}} <span class=SpellE>{{now()->format('F')}}</span>
-        {{now()->format('Y')}}<o:p></o:p></span></p>
+        <p class=MsoNoSpacing style='margin-left:252.0pt'><span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'><span style='mso-spacerun:yes'>    </span><span style='mso-spacerun:yes'>     </span>Medan, {{now()->format('d')}} <span class=SpellE>{{now()->format('F')}}</span>
+                {{now()->format('Y')}}<o:p></o:p></span></p>
 
-    <p class=MsoNoSpacing><span lang=EN-US style='font-size:12.0pt;font-family:
+        <p class=MsoNoSpacing><span lang=EN-US style='font-size:12.0pt;font-family:
 "Times New Roman",serif'>
-        <o:p>&nbsp;</o:p>
-      </span></p>
+                <o:p>&nbsp;</o:p>
+            </span></p>
 
-    <p class=MsoNoSpacing><span lang=EN-US style='font-size:12.0pt;font-family:
+        <p class=MsoNoSpacing><span lang=EN-US style='font-size:12.0pt;font-family:
 "Times New Roman",serif'>
-        <o:p>&nbsp;</o:p>
-      </span></p>
+                <o:p>&nbsp;</o:p>
+            </span></p>
 
-    <p class=MsoNoSpacing><span lang=EN-US style='font-size:12.0pt;font-family:
+        <p class=MsoNoSpacing><span lang=EN-US style='font-size:12.0pt;font-family:
 "Times New Roman",serif'>
-        <o:p>&nbsp;</o:p>
-      </span></p>
+                <o:p>&nbsp;</o:p>
+            </span></p>
 
-    <p class=MsoNoSpacing style='margin-left:252.0pt'><span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'>
-        <o:p>&nbsp;</o:p>
-      </span></p>
+        <p class=MsoNoSpacing style='margin-left:252.0pt'><span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'>
+                <o:p>&nbsp;</o:p>
+            </span></p>
 
-    <p class=MsoNoSpacing style='margin-left:252.0pt'><span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'><span style='mso-spacerun:yes'>       </span><u>{{$patient->doctor->name}}
-          <span class=SpellE>Wannur</span> <span class=SpellE>Azah</span>
-          <o:p></o:p>
-        </u></span></p>
+        <p class=MsoNoSpacing style='margin-left:252.0pt'><span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'><span style='mso-spacerun:yes'>       </span><u>{{$patient->doctor->name}}
+                    <span class=SpellE>Wannur</span> <span class=SpellE>Azah</span>
+                    <o:p></o:p>
+                </u></span></p>
 
-    <p class=MsoNormal><span lang=EN-US><span style='mso-tab-count:8'>                                                                                                </span><span style='mso-spacerun:yes'>      </span></span><span class=SpellE><span lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>Dokter</span></span><span lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>
-        <span class=SpellE>Pemeriksa</span>
-        <o:p></o:p>
-      </span></p>
+        <p class=MsoNormal><span lang=EN-US><span style='mso-tab-count:8'>                                                                                                </span><span style='mso-spacerun:yes'>      </span></span><span class=SpellE><span lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>Dokter</span></span><span lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>
+                <span class=SpellE>Pemeriksa</span>
+                <o:p></o:p>
+            </span></p>
 
-    <p class=MsoNormal><span lang=EN-US>
-        <o:p>&nbsp;</o:p>
-      </span></p>
+        <p class=MsoNormal><span lang=EN-US>
+                <o:p>&nbsp;</o:p>
+            </span></p>
 
-  </div>
-<script>
-    window.print()
+    </div>
+    <script>
+        window.print()
     setTimeout(() => {
         window.history.back()
     }, 1000)
-</script>
+    </script>
 </body>
 
 </html>

@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', 'Hapus Dokter')
+@section('title', 'Hapus User')
 @section('content')
 <!-- Begin Page Content -->
 <div class="container-fluid">
@@ -15,10 +15,10 @@
     <div class="row justify-content-center pb-5">
         <div class="col-6">
             <div class="card">
-                <form action="{{route('doctor.destroy', $doctor->id)}}" method="post">
+                <form action="{{route('user.destroy', $user->id)}}" method="post">
                     @csrf
                     @method('delete')
-                    <div class="card-body text-danger">Hapus dokter {{$doctor->name}} ? </div>
+                    <div class="card-body text-danger">Hapus User {{$user->name}} ? </div>
                     <div class="card-footer d-flex justify-content-end" style="gap:10px">
                         <button class="btn btn-info" type="button" role="button">Cancel</button>
                         <button type="submit" class="btn btn-danger">Hapus</button>

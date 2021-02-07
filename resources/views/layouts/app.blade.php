@@ -67,6 +67,7 @@
           <span>Daftar Antrian</span></a>
       </li>
 
+      @if(Auth::user()->role === 'superadmin')
       <div class="sidebar-heading">
         Dokter
       </div>
@@ -90,16 +91,17 @@
 
       <!-- Nav Item - Charts -->
       <li class="nav-item">
-        <a class="nav-link" href="charts.html">
+        <a class="nav-link" href="{{route('user.index')}}">
           <i class="fas fa-user"></i>
           <span>Daftar Admin</span></a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="charts.html">
+        <a class="nav-link" href="{{route('user.create')}}">
           <i class="fas fa-plus"></i>
           <span>Tambah Admin</span></a>
       </li>
+      @endif
 
       <!-- Divider -->
       <hr class="sidebar-divider d-none d-md-block">
@@ -332,7 +334,10 @@
         <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
         <div class="modal-footer">
           <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-          <a class="btn btn-primary" href="login.html">Logout</a>
+          <form action="{{route('logout')}}" method="post">
+          @csrf
+          <button class="btn btn-primary" type="submit">Logout</button>
+        </form>
         </div>
       </div>
     </div>
