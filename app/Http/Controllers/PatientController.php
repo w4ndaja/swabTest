@@ -43,6 +43,7 @@ class PatientController extends Controller
     {
         $request->validate([
             'name' => 'required|string',
+            'phone' => 'required|string',
             'identity' => 'required|string',
             'birth_place' => 'required|string',
             'birth_date' => 'required|date',
@@ -53,6 +54,7 @@ class PatientController extends Controller
         ]);
         $patient = Patient::create(request()->only(
             'name',
+            'phone',
             'identity',
             'birth_place',
             'birth_date',

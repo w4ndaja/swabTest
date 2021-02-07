@@ -32,6 +32,13 @@
                                     </div>
                                 </div>
                                 <div class="row form-group">
+                                    <label for="inputPhone" class="col-form-label col-lg-4">No Hp</label>
+                                    <div class="col-lg-8">
+                                        <input type="text" class="form-control @error('phone') border-danger @enderror" name="phone" value="{{old('phone')}}" id="inputPhone">
+                                        @error('phone') <span class="text-danger">{{$message}}</span> @enderror
+                                    </div>
+                                </div>
+                                <div class="row form-group">
                                     <label for="inputIdentity" class="col-form-label col-lg-4">No. NIK/SIM/PASSPORT</label>
                                     <div class="col-lg-8">
                                         <input type="text" class="form-control @error('identity') border-danger @enderror" name="identity" value="{{old('identity')}}" id="inputIdentity">
