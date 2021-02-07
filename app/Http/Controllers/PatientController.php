@@ -29,7 +29,7 @@ class PatientController extends Controller
         $doctors = Doctor::all();
         $lastPatient = Patient::latest()->first();
         $newPatientNo = ($lastPatient ? $lastPatient->id : 0) + 1;
-        $queueNo = Patient::whereDate('created_at', now()->format('Y-m-d'))->count() + 1;
+        $queueNo = Patient::whereDate('created_at', now()->format('Y-m-d'))->count() + 123001;
         return view('pages.patient.create', compact('doctors', 'newPatientNo', 'queueNo'));
     }
 
