@@ -15,7 +15,7 @@ class PatientController extends Controller
      */
     public function index()
     {
-        $patients = Patient::with('doctor')->whereDate('created_at', now()->format('Y-m-d'))->paginate(10);
+        $patients = Patient::with('doctor')->whereDate('created_at', now()->format('Y-m-d'))->latest()->paginate(10);
         return view('pages.patient.index', compact('patients'));
     }
 
