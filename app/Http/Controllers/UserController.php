@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\User;
+use Illuminate\Support\Facades\Auth;
 
 class UserController extends Controller
 {
@@ -65,4 +66,5 @@ class UserController extends Controller
     {
     return view('pages.user.delete', compact('user'));
     }
+
 }

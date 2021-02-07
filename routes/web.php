@@ -31,6 +31,7 @@ Route::middleware('auth')->prefix('dashboard')->group(function () {
     Route::get('search-patient', [PatientController::class, 'search'])->name('patient.search');
     Route::get('print-result/{patient}', [PatientController::class, 'printResult'])->name('print-result');
     Route::get('create-barcode/{patient}', [PatientController::class, 'createBarcode'])->name('patient.create-barcode');
+    
     Route::middleware('sa')->group(function () {
         Route::resource('doctor', DoctorController::class);
         Route::get('user', [UserController::class, 'index'])->name('user.index');
