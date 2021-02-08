@@ -911,7 +911,7 @@
  </o:shapelayout></xml><![endif]-->
 </head>
 
-<body lang=EN-ID style='tab-interval:36.0pt'>
+<body lang=EN-ID style='tab-interval:36.0pt;padding-top:120px'>
 
     <div class=WordSection1>
 
