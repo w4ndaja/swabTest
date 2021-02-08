@@ -764,7 +764,7 @@
 
         @page WordSection1 {
             size: 612.0pt 792.0pt;
-            margin: 72.0pt 72.0pt 72.0pt 72.0pt;
+            margin: 72.0pt 72.0pt 0pt 72.0pt;
             mso-header-margin: 36.0pt;
             mso-footer-margin: 36.0pt;
             mso-paper-source: 0;
@@ -1021,12 +1021,12 @@ normal'>{{\Str::ucfirst($patient->result)}}</b></span><b style='mso-bidi-font-we
 font-family:"Times New Roman",serif'> &amp; <span class=GramE>Saran :</span>
                     <o:p></o:p>
                 </span></i></p>
-                <p class=MsoNoSpacing style='margin-left:36.0pt;text-indent:-18.0pt;mso-list:
+        <p class=MsoNoSpacing style='margin-left:36.0pt;text-indent:-18.0pt;mso-list:
 l0 level1 lfo1'>
-        <![if !supportLists]><span lang=EN-US style='font-size:12.0pt;
+            <![if !supportLists]><span lang=EN-US style='font-size:12.0pt;
 font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman"'><span style='mso-list:Ignore'>-<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                </span></span></span>
-        <![endif]><span class=SpellE><i style='mso-bidi-font-style:
+                    </span></span></span>
+            <![endif]><span class=SpellE><i style='mso-bidi-font-style:
 normal'><span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'>Korelasi</span></i></span><i style='mso-bidi-font-style:normal'><span lang=EN-US style='font-size:12.0pt;
 font-family:"Times New Roman",serif'> <span class=SpellE>dengan</span> <span class=SpellE>klinis</span> dan <span class=SpellE>hasil</span> <span class=SpellE>pemeriksaan</span> <span class=SpellE>penunjang</span> <span class=SpellE>relevan</span> lain.<o:p></o:p></span></i>
         </p>
