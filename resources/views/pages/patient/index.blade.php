@@ -33,7 +33,7 @@
                 </div>
                 <div class="card-body">
                     <div class="table-responsive">
-                        <table class="table table-bordered table-hover table-striped">
+                        <table class="table table-bordered table-sm table-hover table-striped">
                             <thead>
                                 <tr>
                                     <th>Nomor Antrian</th>
