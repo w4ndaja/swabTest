@@ -21,7 +21,9 @@
 </head>
 
 <body id="page-top">
-    <h1 class="text-center">Laporan Harian Tanggal {{now()->format('d F Y')}}</h1>
+    <h1 class="text-center">Laporan Harian</h1>
+    <h2 class="text-center">Tanggal : {{now()->parse(request('from'))->format('d F Y')}} - {{now()->parse(request('until'))->format('d F Y')}}</h2>
+    <hr />
     <table class="table table-bordered table-sm mt-5">
         <thead>
             <tr>
