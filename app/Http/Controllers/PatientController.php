@@ -157,7 +157,11 @@ class PatientController extends Controller
 
     public function todayReport()
     {
-        $patients = Patient::whereDate('created_at', now()->format('Y-m-d'))->get();
+        if(request('from') != now()->format('Y-m-d')){
+            $patients = Patient::whereDate('created_at', '>=', request('from'))->whereDate('created_at', '<=', request('until'))->get();
+        }else if(request('from') == request('until') && request('until') == now()->format('Y-m-d')){
+            $patients = Patient::whereDate('created_at', now()->format('Y-m-d'))->get();
+        }
         return view('pages.patient.daily-report', compact('patients'));
     }
 }
