@@ -28,7 +28,7 @@
                                 <div class="span text-info my-auto text-nowrap">Tgl, dari :</div>
                                 <input type="date" class="form-control" name="from" value={{request('from') ?? now()->format('Y-m-d')}}>
                                 <div class="span text-info my-auto text-nowrap">sampai : </div>
-                                <input type="date" class="form-control" name="until" value={{request('to') ?? now()->format('Y-m-d')}}>
+                                <input type="date" class="form-control" name="until" value={{request('until') ?? now()->format('Y-m-d')}}>
                                 <button type="submit" class="form-control btn btn-info btn-icon"><i class="fa fa-print"></i> Print</button>
                                 <button type="button" role="button" onclick="showFiltered(this)" class="form-control btn btn-success btn-icon"><i class="fa fa-eye"></i> Lihat</button>
                             </div>

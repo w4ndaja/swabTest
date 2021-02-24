@@ -16,8 +16,8 @@ class PatientController extends Controller
     public function index()
     {
         $patients = Patient::with('doctor');
-        if(request('from') && request('to')){
-            $patients = $patients->whereDate('created_at', '>=', request('from'))->whereDate('created_at', '<=', request('to'))->latest()->paginate(10);   
+        if(request('from') && request('until')){
+            $patients = $patients->whereDate('created_at', '>=', request('from'))->whereDate('created_at', '<=', request('until'))->latest()->paginate(10);   
         }else{
             $patients = $patients->whereDate('created_at', now()->format('Y-m-d'))->latest()->paginate(10);   
         }
