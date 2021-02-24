@@ -146,7 +146,8 @@ class PatientController extends Controller
      */
     public function destroy(Patient $patient)
     {
-        //
+        $patient->delete();
+        return back()->with('success', 'Antrian berhasil dihapus...');
     }
 
     public function search()

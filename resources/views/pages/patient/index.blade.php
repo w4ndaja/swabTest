@@ -66,6 +66,32 @@
                                     <td class="text-nowrap">{{$patient->doctor->name}}</td>
                                     <td>
                                         <a href="{{route('patient.edit', $patient->id)}}" class="btn btn-info">Update</a>
+                                        @if(request()->user()->role == 'SA')
+                                        <button data-toggle="modal" data-target="#delete-patient-modal-{{$patient->id}}" class="btn btn-danger">Hapus</button>
+                                        <div class="modal" tabindex="-1" role="dialog" id="delete-patient-modal-{{$patient->id}}">
+                                            <div class="modal-dialog" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title">Peringatan</h5>
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                    </div>
+                                                    <form action="{{route('patient.destroy', $patient->id)}}" method="post">
+                                                        @csrf
+                                                        @method("delete")
+                                                        <div class="modal-body">
+                                                            <p>Apakah anda yakin ingin menghapus antrian ini? </p>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="submit" class="btn btn-danger">Ya, Hapus</button>
+                                                            <button type="button" role="button" class="btn btn-secondary" data-dismiss="modal">Batal</button>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        @endif
                                     </td>
                                 </tr>
                                 @endforeach
