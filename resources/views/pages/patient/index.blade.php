@@ -104,8 +104,8 @@
                                 @endforeach
                             </tbody>
                         </table>
+                        {{$patients->links()}}
                     </div>
-                    {{$patients->links()}}
                 </div>
             </div>
         </div>
