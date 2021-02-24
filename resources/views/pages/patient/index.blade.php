@@ -68,7 +68,7 @@
                                     <td class="text-nowrap">{{$patient->address}}</td>
                                     <td class="text-nowrap">{{$patient->result}}</td>
                                     <td class="text-nowrap">{{$patient->doctor->name}}</td>
-                                    <td>
+                                    <td class="text-nowrap">
                                         <a href="{{route('patient.edit', $patient->id)}}" class="btn btn-info">Update</a>
                                         @if(request()->user()->role == 'SA')
                                         <button data-toggle="modal" data-target="#delete-patient-modal-{{$patient->id}}" class="btn btn-danger">Hapus</button>
