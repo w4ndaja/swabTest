@@ -58,7 +58,7 @@ class PatientController extends Controller
             'address' => 'required|string',
             'doctor_id' => 'required|string',
         ]);
-        $patient = Patient::create(request()->only(
+        $patient = Patient::updateOrcreate(['identity' => request()->identity], request()->only(
             'name',
             'phone',
             'identity',

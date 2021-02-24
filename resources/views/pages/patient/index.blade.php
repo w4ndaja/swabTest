@@ -40,18 +40,21 @@
                         <table class="table table-bordered table-sm table-hover table-striped">
                             <thead>
                                 <tr>
-                                    <th>Nomor Antrian</th>
-                                    <th>Nama</th>
-                                    <th>HP</th>
-                                    <th>ID</th>
-                                    <th>Tempat Lahir</th>
-                                    <th>Tanggal Lahir</th>
-                                    <th>JK</th>
-                                    <th>Pekerjaan</th>
-                                    <th>Alamat</th>
-                                    <th>Hasil</th>
-                                    <th>Dokter</th>
-                                    <th>Aksi</th>
+                                    <th rowspan="2">No Antrian</th>
+                                    <th rowspan="2">Nama</th>
+                                    <th rowspan="2">HP</th>
+                                    <th rowspan="2">ID</th>
+                                    <th colspan="2">Kelahiran</th>
+                                    <th rowspan="2">JK</th>
+                                    <th rowspan="2">Pekerjaan</th>
+                                    <th rowspan="2">Alamat</th>
+                                    <th rowspan="2">Hasil</th>
+                                    <th rowspan="2">Dokter</th>
+                                    <th rowspan="2">Aksi</th>
+                                </tr>
+                                <tr>
+                                    <th>Tempat</th>
+                                    <th>Tanggal</th>
                                 </tr>
                             </thead>
                             <tbody>
