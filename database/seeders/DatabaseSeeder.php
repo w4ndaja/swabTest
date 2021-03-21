@@ -2,7 +2,7 @@
 
 namespace Database\Seeders;
 
-use App\Models\Store;
+use App\Models\Doctor;
 use App\Models\User;
 use Illuminate\Database\Seeder;
 
@@ -22,10 +22,13 @@ class DatabaseSeeder extends Seeder
             'role' => 'SA',
         ]);
         User::create([
-            'name' => 'ADMIN',
-            'username' => 'adminprsu',
+            'name' => 'Operator',
+            'username' => 'operator',
             'password' => bcrypt('password'),
             'role' => 'admin',
+        ]);
+        Doctor::create([
+            'name' => 'dr. Yuliandriani Wannur Azah'
         ]);
     }
 }
