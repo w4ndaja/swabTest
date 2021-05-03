@@ -916,6 +916,10 @@
     <div class=WordSection1>
         <br />
         <br />
+        <br />
+        <br />
+        <br />
+        <br />
         <p class=MsoNoSpacing style='margin-left:108.0pt;text-indent:36.0pt'><b style='mso-bidi-font-weight:normal'><u><span lang=EN-US style='font-size:16.0pt;
 font-family:"Times New Roman",serif;text-transform:uppercase'>SURAT KETERANGAN<o:p></o:p></span></u></b></p>
 

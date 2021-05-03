@@ -24,6 +24,7 @@ class CreatePatientsTable extends Migration
             $table->string('job');
             $table->text('address');
             $table->string('result')->nullable();
+            $table->string('phone')->nullable();
             $table->boolean('received')->default(0);
             $table->text('interpretation')->nullable();
             $table->foreignId('doctor_id');
