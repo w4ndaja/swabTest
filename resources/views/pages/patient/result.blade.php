@@ -912,10 +912,7 @@
 </head>
 
 <body lang=EN-ID style='tab-interval:36.0pt'>
-
     <div class=WordSection1>
-        <br />
-        <br />
         <p class=MsoNoSpacing style='text-align:center'><b style='mso-bidi-font-weight:normal'><u><span lang=EN-US style='font-size:16.0pt;
 font-family:"Times New Roman",serif;text-transform:uppercase'>SURAT KETERANGAN<o:p></o:p></span></u></b></p>
 
