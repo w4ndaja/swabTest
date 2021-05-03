@@ -16,9 +16,9 @@ class PatientController extends Controller
     public function index()
     {
         $patients = Patient::with('doctor');
-        if(request('from') && request('until')){
-            $patients = $patients->whereDate('created_at', '>=', request('from'))->whereDate('created_at', '<=', request('until'));   
-        }else{
+        if (request('from') && request('until')) {
+            $patients = $patients->whereDate('created_at', '>=', request('from'))->whereDate('created_at', '<=', request('until'));
+        } else {
             $patients = $patients->whereDate('created_at', now()->format('Y-m-d'));
         }
         $patients = $patients->latest()->paginate(20)->withQueryString();
@@ -111,13 +111,14 @@ class PatientController extends Controller
     public function update(Request $request, Patient $patient)
     {
         $request->validate([
-            'result'=>'required|string',
+            'result' => 'required|string',
             // 'interpretation'=>'required|string',
         ]);
         $patient->update([
             'result' => $request->result,
             // 'interpretation' => $request->interpretation,
             'received' => $request->received,
+            'address' => $request->address,
         ]);
         return back()->with('success', 'Pasien Berhasil diperbaharui');
     }
@@ -129,12 +130,13 @@ class PatientController extends Controller
         return view('pages.patient.result', compact('patient', 'interpretations', 'romanceMonth'));
     }
 
-    public function numberToRomanRepresentation($number) {
+    public function numberToRomanRepresentation($number)
+    {
         $map = array('M' => 1000, 'CM' => 900, 'D' => 500, 'CD' => 400, 'C' => 100, 'XC' => 90, 'L' => 50, 'XL' => 40, 'X' => 10, 'IX' => 9, 'V' => 5, 'IV' => 4, 'I' => 1);
         $returnValue = '';
         while ($number > 0) {
             foreach ($map as $roman => $int) {
-                if($number >= $int) {
+                if ($number >= $int) {
                     $number -= $int;
                     $returnValue .= $roman;
                     break;
@@ -164,9 +166,9 @@ class PatientController extends Controller
 
     public function todayReport()
     {
-        if(request('from') != now()->format('Y-m-d')){
+        if (request('from') != now()->format('Y-m-d')) {
             $patients = Patient::whereDate('created_at', '>=', request('from'))->whereDate('created_at', '<=', request('until'))->get();
-        }else if(request('from') == request('until') && request('until') == now()->format('Y-m-d')){
+        } else if (request('from') == request('until') && request('until') == now()->format('Y-m-d')) {
             $patients = Patient::whereDate('created_at', now()->format('Y-m-d'))->get();
         }
         return view('pages.patient.daily-report', compact('patients'));
