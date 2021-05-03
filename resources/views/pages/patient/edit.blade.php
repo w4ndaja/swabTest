@@ -42,7 +42,7 @@
                                 <div class="row form-group">
                                     <label for="inputAlamat" class="col-form-label col-lg-4">Alamat</label>
                                     <div class="col-lg-8">
-                                        <input type="text" class="form-control @error('address') border-danger @enderror" name="address" value="{{$patient->address}}" id="inputAddress" readonly>
+                                        <input type="text" class="form-control @error('address') border-danger @enderror" name="address" value="{{$patient->address}}" id="inputAddress">
                                         @error('address') <span class="text-danger">{{$message}}</span> @enderror
                                     </div>
                                 </div>
