@@ -911,13 +911,12 @@
  </o:shapelayout></xml><![endif]-->
 </head>
 
-<body lang=EN-ID style='tab-interval:36.0pt'>
+<body lang=EN-ID style='tab-interval:36.0pt;margin-top:-64px;'>
     <div class=WordSection1>
-        <p class=MsoNoSpacing style='text-align:center'><b style='mso-bidi-font-weight:normal'><u><span lang=EN-US style='font-size:16.0pt;
-font-family:"Times New Roman",serif;text-transform:uppercase'>SURAT KETERANGAN<o:p></o:p></span></u></b></p>
-
-        <p class=MsoNoSpacing align=center style='text-align:center'><span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'>No.
-                {{str_pad($patient->id, 3, '0', STR_PAD_LEFT)}}/AZ-MA/SA/{{$romanceMonth}}/{{now()->format('Y')}}<o:p></o:p></span></p>
+        <p class=MsoNoSpacing style='text-align:center'>
+            <b style='mso-bidi-font-weight:normal'><u><span lang=EN-US style='font-size:16.0pt; font-family:"Times New Roman",serif;text-transform:uppercase'>SURAT KETERANGAN<o:p></o:p></span></u></b>
+        </p>
+        <p class=MsoNoSpacing align=center style='text-align:center'><span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'>No. {{str_pad($patient->id, 3, '0', STR_PAD_LEFT)}}/AZ-MA/SA/{{$romanceMonth}}/{{now()->format('Y')}}<o:p></o:p></span></p>
 
         <p class=MsoNoSpacing><span lang=EN-US style='font-size:12.0pt;font-family:
 "Times New Roman",serif'>
