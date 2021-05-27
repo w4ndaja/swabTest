@@ -21,7 +21,9 @@ class PatientController extends Controller
         }else{
             $patients = $patients->whereDate('created_at', now()->format('Y-m-d'));
         }
-        $patients = $patients->latest()->paginate(20)->withQueryString();
+        // $patients = $patients->whereDate('created_at', '<', '2021-05-26')->latest()->get()->map(fn ($q) => ['id' => $q->id, 'created_at' => $q->created_at->format('d F Y')])->groupBy('created_at')->map(fn ($q) => $q->take(floor($q->count() * (rand(25, 35) / 100))))->flatten(1);
+        // $patients = Patient::whereIn('id', $patients->pluck('id'));
+        $patients = $patients->paginate(20)->withQueryString();
         return view('pages.patient.index', compact('patients'));
     }
 
