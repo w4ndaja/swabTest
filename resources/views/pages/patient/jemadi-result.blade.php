@@ -17,7 +17,7 @@ w\:* {behavior:url(#default#VML);}
 .shape {behavior:url(#default#VML);}
 </style>
 <![endif]-->
-    <title>{{$patient->name}}</title>
+    <title>{{strtoupper($patient->name)}}</title>
     <link rel=themeData href="atg-template.fld/themedata.thmx">
     <link rel=colorSchemeMapping href="atg-template.fld/colorschememapping.xml">
     <!--[if gte mso 9]><xml>
@@ -959,9 +959,7 @@ Times'><span style='mso-tab-count:1'>                     �
                         </span></p>
                 </td>
                 <td width=144 valign=top style='width:108.0pt;padding:0cm 0cm 0cm 0cm;
-  height:16.8pt'>
-                    <p class=MsoNormal style='margin-bottom:0cm;text-align:justify;text-justify:
-  inter-ideograph;line-height:200%'>{{$patient->created_at->format('d F Y H:i:s')}}</p>
+  height:16.8pt'>{{$patient->created_at->format('d F Y H:i:s')}}
                 </td>
                 <td style='mso-cell-special:placeholder;border:none;padding:0cm 0cm 0cm 0cm' width=41>
                     <p class='MsoNormal'>&nbsp;
@@ -990,10 +988,7 @@ Times'><span style='mso-tab-count:1'>                     �
                         </span></p>
                 </td>
                 <td width=144 valign=top style='width:108.0pt;padding:0cm 0cm 0cm 0cm;
-  height:16.8pt'>
-                    <p class=MsoNormal style='margin-bottom:0cm;text-align:justify;text-justify:
-  inter-ideograph;line-height:200%'>{{$patient->updated_at->format('d F Y H:i:s')}}</p>
-                </td>
+  height:16.8pt'>{{$patient->updated_at->format('d F Y H:i:s')}}</td>
                 <td style='mso-cell-special:placeholder;border:none;padding:0cm 0cm 0cm 0cm' width=41>
                     <p class='MsoNormal'>&nbsp;
                 </td>
@@ -1022,10 +1017,7 @@ Times'><span style='mso-tab-count:1'>                     �
                         </span></p>
                 </td>
                 <td width=144 valign=top style='width:108.0pt;padding:0cm 0cm 0cm 0cm;
-  height:13.3pt'>
-                    <p class=MsoNormal style='margin-bottom:0cm;text-align:justify;text-justify:
-  inter-ideograph;line-height:200%'>{{$patient->updated_at->addMinute()->format('d F Y H:i:s')}}</p>
-                </td>
+  height:13.3pt'>{{$patient->updated_at->addMinute()->format('d F Y H:i:s')}}</td>
                 <td style='mso-cell-special:placeholder;border:none;border-bottom:solid #888888 1.0pt' width=41>
                     <p class='MsoNormal'>&nbsp;
                 </td>
