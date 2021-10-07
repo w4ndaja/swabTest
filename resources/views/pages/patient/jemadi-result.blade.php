@@ -867,7 +867,7 @@ Times'><span style='mso-tab-count:1'>                     �
                 <td width=185 valign=top style='width:138.9pt;padding:0cm 0cm 0cm 0cm;
   height:13.3pt'>
                     <p class=MsoNormal style='margin-bottom:0cm;line-height:200%'><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:200%;
-  font-family:Times'>: <b style='mso-bidi-font-weight:normal'>{{$patient->name}}<o:p></o:p></b></span></p>
+  font-family:Times'>: <b style='mso-bidi-font-weight:normal'>{{strtoupper($patient->name)}}<o:p></o:p></b></span></p>
                     <p class=MsoNormal style='margin-bottom:0cm;line-height:200%'><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:200%;
   font-family:Times'>: <b style='mso-bidi-font-weight:normal'>{{$patient->identity}}</b></span><span
                             style='font-family:Times'>
@@ -959,7 +959,12 @@ Times'><span style='mso-tab-count:1'>                     �
                         </span></p>
                 </td>
                 <td width=144 valign=top style='width:108.0pt;padding:0cm 0cm 0cm 0cm;
-  height:16.8pt'>{{$patient->created_at->format('d F Y H:i:s')}}
+  height:16.8pt'>
+                    <p class=MsoNormal style='margin-bottom:0cm;line-height:200%'><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:200%;
+  font-family:Times'>: <b style='mso-bidi-font-weight:normal'>{{$patient->created_at->format('d F Y H:i:s')}}</b></span><span
+                            style='font-family:Times'>
+                            <o:p></o:p>
+                        </span></p>
                 </td>
                 <td style='mso-cell-special:placeholder;border:none;padding:0cm 0cm 0cm 0cm' width=41>
                     <p class='MsoNormal'>&nbsp;
@@ -988,7 +993,13 @@ Times'><span style='mso-tab-count:1'>                     �
                         </span></p>
                 </td>
                 <td width=144 valign=top style='width:108.0pt;padding:0cm 0cm 0cm 0cm;
-  height:16.8pt'>{{$patient->updated_at->format('d F Y H:i:s')}}</td>
+  height:16.8pt'>
+                    <p class=MsoNormal style='margin-bottom:0cm;line-height:200%'><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:200%;
+  font-family:Times'>: <b style='mso-bidi-font-weight:normal'>{{$patient->updated_at->format('d F Y H:i:s')}}</b></span><span
+                            style='font-family:Times'>
+                            <o:p></o:p>
+                        </span></p>
+                </td>
                 <td style='mso-cell-special:placeholder;border:none;padding:0cm 0cm 0cm 0cm' width=41>
                     <p class='MsoNormal'>&nbsp;
                 </td>
@@ -1017,7 +1028,13 @@ Times'><span style='mso-tab-count:1'>                     �
                         </span></p>
                 </td>
                 <td width=144 valign=top style='width:108.0pt;padding:0cm 0cm 0cm 0cm;
-  height:13.3pt'>{{$patient->updated_at->addMinute()->format('d F Y H:i:s')}}</td>
+  height:16.8pt'>
+                    <p class=MsoNormal style='margin-bottom:0cm;line-height:200%'><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:200%;
+  font-family:Times'>: <b style='mso-bidi-font-weight:normal'>{{$patient->updated_at->addMinute()->format('d F Y H:i:s')}}</b></span><span
+                            style='font-family:Times'>
+                            <o:p></o:p>
+                        </span></p>
+                </td>
                 <td style='mso-cell-special:placeholder;border:none;border-bottom:solid #888888 1.0pt' width=41>
                     <p class='MsoNormal'>&nbsp;
                 </td>
