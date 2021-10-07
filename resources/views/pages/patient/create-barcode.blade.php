@@ -20,7 +20,7 @@
             <h1 class="text-center" style="font-size:84px">Swab Antigen Test</h1>
             <div class="text-center">{!! \QR::size(520)->generate(url('dashboard/patient/'.$patient->id.'/edit')); !!}</div>
             <div class="h1 text-center pt-3"  style="font-size:132px">Antrean No. {{str_pad($patient->queue_no, 5, '0', STR_PAD_LEFT)}}</div>
-            <div class="h1 text-center pt-3"  style="font-size:84px">{{now()->format('d F Y h:i')}}</div>
+            <div class="h1 text-center pt-3"  style="font-size:84px">{{now()->format('d F Y H:i')}}</div>
         </div>
     </div>
 
