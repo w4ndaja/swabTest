@@ -958,7 +958,7 @@ Times'><span style='mso-tab-count:1'>                     �
                             <o:p></o:p>
                         </span></p>
                 </td>
-                <td width=200 valign=top style='width:108.0pt;padding:0cm 0cm 0cm 0cm;
+                <td width=200 valign=top style='width:200.0pt;padding:0cm 0cm 0cm 0cm;
   height:16.8pt'>
                     <p class=MsoNormal style='margin-bottom:0cm;line-height:200%'><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;line-height:200%;
   font-family:Times'>: <b style='mso-bidi-font-weight:normal'>{{$patient->created_at->format('d F Y H:i:s')}}</b></span><span
