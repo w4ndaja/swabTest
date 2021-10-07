@@ -919,7 +919,7 @@
 font-family:"Times New Roman",serif;text-transform:uppercase'>SURAT KETERANGAN<o:p></o:p></span></u></b></p>
 
         <p class=MsoNoSpacing align=center style='text-align:center'><span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'>No.
-                {{str_pad($patient->id, 3, '0', STR_PAD_LEFT)}}/AZ-MA/SA/{{$romanceMonth}}/{{now()->format('Y')}}<o:p></o:p></span></p>
+                {{str_pad($patient->id, 3, '0', STR_PAD_LEFT)}}/KJ/ATG/{{$romanceMonth}}/{{now()->format('Y')}}<o:p></o:p></span></p>
 
         <p class=MsoNoSpacing><span lang=EN-US style='font-size:12.0pt;font-family:
 "Times New Roman",serif'>
