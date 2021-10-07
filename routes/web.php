@@ -24,7 +24,7 @@ Route::get('/', function () {
 
 Route::get('login', [AuthController::class, 'login'])->middleware('guest')->name('login');
 Route::post('login', [AuthController::class, 'authenticate'])->middleware('guest')->name('login');
-Route::get('patient/{patient}/edit', [PatientController::class, 'edit']);
+Route::get('dashboard/patient/{patient}/edit', [PatientController::class, 'edit']);
 Route::middleware('auth')->prefix('dashboard')->group(function () {
     Route::post('logout', [AuthController::class, 'logout'])->name('logout');
     Route::get('/', [DashboardController::class, 'index']);
