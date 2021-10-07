@@ -17,7 +17,7 @@ class PatientController extends Controller
     {
         $patients = Patient::with('doctor');
         if(request('from') && request('until')){
-            $patients = $patients->whereDate('created_at', '>=', request('from'))->whereDate('created_at', '<=', request('until'));   
+            $patients = $patients->whereDate('created_at', '>=', request('from'))->whereDate('created_at', '<=', request('until'));
         }else{
             $patients = $patients->whereDate('created_at', now()->format('Y-m-d'));
         }
@@ -128,7 +128,8 @@ class PatientController extends Controller
     {
         $interpretations = \Str::of($patient->interpretation)->split('/[\n\r]+/');
         $romanceMonth = $this->numberToRomanRepresentation(now()->format('n'));
-        return view('pages.patient.result', compact('patient', 'interpretations', 'romanceMonth'));
+        return view('pages.patient.jemadi-result', compact('patient', 'interpretations', 'romanceMonth'));
+        // return view('pages.patient.result', compact('patient', 'interpretations', 'romanceMonth'));
     }
 
     public function numberToRomanRepresentation($number) {
