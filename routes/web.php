@@ -24,6 +24,7 @@ Route::get('/', function () {
 
 Route::get('login', [AuthController::class, 'login'])->middleware('guest')->name('login');
 Route::post('login', [AuthController::class, 'authenticate'])->middleware('guest')->name('login');
+Route::get('patient/{patient}', [PatientController::class, 'edit']);
 Route::middleware('auth')->prefix('dashboard')->group(function () {
     Route::post('logout', [AuthController::class, 'logout'])->name('logout');
     Route::get('/', [DashboardController::class, 'index']);
@@ -32,7 +33,7 @@ Route::middleware('auth')->prefix('dashboard')->group(function () {
     Route::get('toady-report', [PatientController::class, 'todayReport'])->name('today-report');
     Route::get('print-result/{patient}', [PatientController::class, 'printResult'])->name('print-result');
     Route::get('create-barcode/{patient}', [PatientController::class, 'createBarcode'])->name('patient.create-barcode');
-    
+
     Route::middleware('sa')->group(function () {
         Route::resource('doctor', DoctorController::class);
         Route::get('user', [UserController::class, 'index'])->name('user.index');
