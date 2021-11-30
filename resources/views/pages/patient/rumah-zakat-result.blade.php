@@ -1505,14 +1505,14 @@
        mso-padding-alt:0cm 5.4pt 0cm 5.4pt;mso-border-insideh:none;mso-border-insidev:
        none" cellspacing="0" cellpadding="0" border="0">
        <tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes">
-        <td style="width:156.55pt;padding:0cm 5.4pt 0cm 5.4pt" width="209" valign="top">
+        <td style="width:180pt;padding:0cm 5.4pt 0cm 5.4pt" width="209" valign="top">
         <p class="MsoNormal" style="margin-bottom:2.2pt;text-align:center" align="center"><span class="SpellE"><b style="mso-bidi-font-weight:normal"><span style="font-size:
         10.5pt;mso-bidi-font-size:11.0pt;line-height:105%;font-family:&quot;Times New Roman&quot;,serif;
         mso-fareast-font-family:&quot;Times New Roman&quot;;color:#221F20">Petugas</span></b></span></p>
         </td>
        </tr>
        <tr style="mso-yfti-irow:1;mso-yfti-lastrow:yes">
-        <td style="width:156.55pt;padding:0cm 5.4pt 0cm 5.4pt" width="209" valign="top">
+        <td style="width:180pt;padding:0cm 5.4pt 0cm 5.4pt" width="209" valign="top">
         <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:
         .0001pt;text-align:center" align="center"><b style="mso-bidi-font-weight:normal"><span style="font-size:10.5pt;mso-bidi-font-size:11.0pt;line-height:105%;
         font-family:&quot;Times New Roman&quot;,serif;mso-fareast-font-family:&quot;Times New Roman&quot;;
